@@ -14,6 +14,7 @@ import './styles/scss.scss'
 const post = new Post('Webpack Post Title', WebpackLogo)
 $('pre').addClass('code').html(post.toString())
 
+// const unused = 423;
 
 const App = () => (
   <div className="container">
